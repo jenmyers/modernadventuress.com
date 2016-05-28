@@ -1,0 +1,13 @@
+# Site settings
+title: Modern Adventuress
+author: Jen Myers
+email: hello@jenmyers.net
+
+baseurl: ""
+url: "http://modernadventuress.com"
+sass:
+  sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+permalink: none

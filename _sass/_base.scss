@@ -1,0 +1,195 @@
+/*
+    Styles for thereportmargins.com
+    Author: Jen Myers
+    Email: hello@jenmyers.net
+*/
+
+// Body Border
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+}
+
+body:before, body:after {
+  background-color: darken($color-background, 5%);
+  content: "";
+  height: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+body {
+  border-left: 10px solid darken($color-background, 5%);
+  border-right: 10px solid darken($color-background, 5%);
+}
+
+// Layout
+
+body {
+  background-color: $color-background;
+  color: $color-primary;
+  font-family: $font-base;
+  font-size: 1.8em;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  @media (max-width: 768px) {
+      font-size: 1.6em;
+  }
+  @media (max-width: 380px) {
+    font-size: 1.2em;
+  }
+}
+
+.container {
+  @include span-columns(10);
+  @include shift(1);
+  padding: 2em;
+  @media (max-width: 768px) {
+      @include span-columns(12);
+      @include shift(0);
+  }
+}
+
+.header-wrapper {
+  background-color: darken($color-background, 5%);
+  text-align: center;
+  img {
+    vertical-align: middle;
+  }
+  a, a:hover {
+    border-bottom: none;
+  }
+}
+
+// Typography
+
+h1 {
+  color: darken($color-emphasis, 60%);
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 0.5em 0;
+  span {
+    font-weight: 100;
+  }
+}
+
+h2 {
+  color: $color-secondary;
+  font-size: 85%; 
+  font-family: $font-accent;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 90%;
+  margin: 1em 0;
+}
+
+p.intro {
+  margin: 1em 0 2em 0;
+  font-style: italic;
+}
+
+p.footer {
+  @extend .intro;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 90%;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid darken($color-background, 5%);
+  margin: 2em auto;
+  width: 80%
+}
+
+.note-list {
+  li {
+    font-size: 150%;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 0;
+    span {
+      color: lighten($color-primary, 15%);
+      display: inline-block;
+      font-family: $font-accent;
+      font-size: 50%;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      margin-left: 0.5em;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+  }
+}
+
+blockquote {
+  font-style: italic;
+}
+
+// Anchors
+
+a {
+  @include transition-main;
+  border-bottom: 2px solid darken($color-background, 10%);
+  color: darken($color-emphasis, 50%);
+  text-decoration: none;
+  &:hover {
+    @include transition-main;
+    border-bottom: 2px solid darken($color-background, 20%);
+    color: darken($color-emphasis, 30%);
+  }
+  &.back {
+    @include transition-back;
+    border: 2px solid darken($color-emphasis, 35%);
+    border-radius: 5px;
+    display: block;
+    font-family: $font-accent;
+    font-size: 60%;
+    font-weight: 500;
+    margin: 2em auto;
+    padding: 0.6em 1.5em 0.5em 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    &:hover {
+        @include transition-back;
+        background-color: darken($color-emphasis, 30%);
+        border: 2px solid darken($color-emphasis, 30%);
+        color: $color-background;
+    }
+  }
+}
