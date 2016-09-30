@@ -1,0 +1,20 @@
+---
+layout: note
+title: On optimism
+---
+
+One of my favorite places in the world is manufactured, propped up in the swampy middle of Florida by foolish willpower and grandiose enthusiasm. It originally referred to itself by the audacious, all-caps acronym of EPCOT, standing for Experimental Prototype Community of Tomorrow—although common use and sense has since downgraded it to the more pedestrian name of Epcot. Original meaning often unknown, usually unasked. But for all that, it remains, even by accident, a living monument to the increasingly most old-fashioned of qualities: optimism.
+
+I am a nerd; therefore, I love Epcot. It’s sciencey and multicultural and educational. Good food abounds, plus there’s a fast-service champagne booth in fake France. It’s basically my ideal place. However, its true charm is in its vision of the future, which is decidedly historical. It is, in fact, a paragon of Past Future tense. While it opened its gates in 1982, its spirit reaches back to an even earlier age, and it has far more in common with a mid-century World’s Fair than a modern theme park. Americans have fallen out of love with the phenomena of the World’s Fair, that celebration of innovation, progress and global consciousness we flocked to regularly for most of a century, and the expositions that still take place in the world do so largely without our participation or interest. But we still have Epcot.
+
+Epcot has grown in fits and starts over the years, and some parts of it shows its age. The late 70s shout from its thick, straight lines and rounded corners. Even the pieces revived in the 90s are now, well, clearly from the 90s. But now those pieces seem to fall in line with the rest of the World Showcase, the replicas of several countries that ring its small central ocean—the lost future is essentially just another country, which, ultimately, exists outside of time. We visit them all, in this universe where there are no borders or barriers, just exploring and sharing and really good snacks.
+
+I’ve noted before how Disney World in general has taught me how I had learned to use cynicism as a shield and how pessimism had covered up weakness rather than expressed strength, and how sometimes nice things are just nice. This lesson gets a little more complex when it comes to thinking about Epcot, when you’re invited to then think about the world as a whole, its past and its present and its future. It’s not always nice out there. How much can we really learn from a microcosm that only presents the nice to us? Fantasy lands are one thing. It’s another to make fantasy from reality, to take what fantasy wants without regard for what reality requires. Have we passed the time when we could believe without irony in a cohesive, peaceful world?
+
+Maybe. Maybe that’s why I still believe so strongly, unironically, in Epcot’s optimism. When it comes to optimism, it’s not so much about the what, but about the how. A long enough time of paying good enough attention has shown me that absolute truths do in fact exist, but we will always perceive them within contexts. The only wisdom we can grab at might be in understanding how to balance extremes without compromising them. This means that neither sincerity nor cynicism, sentimentality nor sophistication, has to rule alone. Rather, they exist together, in the complicated, human real world.
+
+We can take in light from many different sources, because we are prisms, and we choose what we ultimately reflect.
+
+The Epcot that now exists is not the perfect planned community Disney originally envisioned, nor is it the transformative vision of tomorrow everyone believed it was when was built. But chances are it’s also not the superficial vacation distraction we typically treat it as, either. Somewhere in its DNA are threads of a certain history’s optimism that we’re still connected to. Like all open possibilities, we have most of the say, and the responsibility, in determining the nature of our paths to and from it.
+
+Have some food. Stay for the fireworks. And whatever you find outside of the world, make sure you take it back in with you.
