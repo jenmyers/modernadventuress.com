@@ -1,0 +1,14 @@
+---
+layout: note
+title: On boredom
+---
+
+When I was a teenager, my favorite times of the day were the thirty odd minutes, once in the morning and once in the afternoon, that I spent on the school bus. It was the only reliable time of the day where nothing was expected of me but to sit in one place by myself. I could listen to my portable cassette player, read a book or just gaze out of the window. It was heaven. I was, for a brief period, entirely free to think and imagine, and no one had any reason to interrupt me or instruct me to do something more apparently useful. No one assumed I was doing anything but keeping myself from being bored.
+
+I don’t ever remember being bored when I was younger. How many of us do, I wonder? I’ve noticed that children tend to be eminently resourceful. However, I’ve also noticed adults tend to have faulty memories, so I could be wrong. But I know that I in particular thrived off of boredom, so much so that I rarely perceived it as such. To me, boredom meant no anxiety because I was supposed to be doing something else. Boredom meant no one was pressing me towards some activity or obligation. Boredom meant I was on my own and I could do or make whatever I wanted. It was solitude and opportunity. The truth was that I sought out boredom, so that I could immediately alchemize it into something I thought was valuable.
+
+Recently I realized that, for the first time since youth, my life has stabilized to the point of again supporting boredom. If you’re not prepared for it, it can be an initially unpleasant encounter. Beyond youth, we’re trained to see boredom as an enemy, some vague animal threat that stalks always at the edge of our busy-ness, and against which we must put up barriers. We have thick walls of protection from boredom: app notifications and streaming video and ceaseless blue light. I’ve fallen into these habits as easily as I pull my phone from my pocket. I’m grateful for the increased connections to other people and happenings in the world at the same time I’ve started to learn that, without balance, it becomes meaningless noise. It becomes a default, rather than a deliberate connection. It eats away at my time to think.
+
+I’ve started to actively cultivate boredom again. I leave my phone in my pocket. I take roundabout train and bus trips. I walk around. The space that has opened up as a result is familiar. It reminds me of when I imagined more often, when I had room to think more deeply and create more easily. When I crawled in new ideas and settled in, and fashioned new ones of my own. When I paid more attention to everything around me and noticed more details that are often dismissed as unimportant. I find I missed being bored. I missed the solitude and opportunity boredom creates. I missed what I created inside of it.
+
+So if at some point you see me wandering, please don’t bother me. I’m being bored, and it’s extremely interesting.
