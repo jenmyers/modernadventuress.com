@@ -53,7 +53,7 @@ body {
 .container {
   @include span-columns(10);
   @include shift(1);
-  padding: 2em;
+  padding: 1.4em 2em 2em 2em;
   @media (max-width: 768px) {
       @include span-columns(12);
       @include shift(0);
@@ -204,4 +204,43 @@ img {
   }
 }
 
+#cz_embed_signup {
+  margin: 0 auto;
+  width: 60%;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+  h3 {
+    border-bottom: 2px solid darken($color-background, 15%);
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 1.5em 0 0.75em 0;
+  }
+}
 
+label {
+  font-size: 0.6em;
+}
+
+input {
+  font-size: 0.5em;
+  padding: 0.2em;
+}
+
+input[type=submit] {
+  background-color: darken($color-emphasis, 50%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 3em 0;
+  width: 100%;
+}
+
+aside {
+  font-size: 0.6em;
+  font-style: italic;
+}
