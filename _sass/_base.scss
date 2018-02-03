@@ -35,7 +35,7 @@ body {
 // Layout
 
 body {
-  background-color: $color-background;
+  background-color: lighten($color-background, 2%);
   color: $color-primary;
   font-family: $font-base;
   font-size: 1.8em;
@@ -43,7 +43,7 @@ body {
   margin: 0;
   padding: 0;
   @media (max-width: 768px) {
-      font-size: 1.6em;
+    font-size: 1.6em;
   }
   @media (max-width: 380px) {
     font-size: 1.2em;
@@ -55,13 +55,13 @@ body {
   @include shift(1);
   padding: 1.4em 2em 2em 2em;
   @media (max-width: 768px) {
-      @include span-columns(12);
-      @include shift(0);
+    @include span-columns(12);
+    @include shift(0);
   }
 }
 
 .header-wrapper {
-  background-color: darken($color-background, 5%);
+  padding-top: 2em;
   text-align: center;
   img {
     vertical-align: middle;
@@ -136,7 +136,6 @@ strong {
 
 hr {
   border: 1px solid darken($color-background, 5%);
-  margin: 2em auto;
   width: 80%
 }
 
@@ -176,31 +175,37 @@ a {
     border-bottom: 2px solid darken($color-background, 20%);
     color: darken($color-emphasis, 30%);
   }
-  &.back {
-    @include transition-back;
+  &.archive {
+    @include transition-archive;
     border: 2px solid darken($color-emphasis, 35%);
     border-radius: 5px;
     display: block;
     font-family: $font-accent;
     font-size: 60%;
     font-weight: 500;
-    margin: 2em auto;
-    padding: 0.6em 1.5em 0.5em 1.5em;
+    margin: 4em auto;
+    padding: 0.7em 1.5em 0.5em 1.5em;
     text-transform: uppercase;
     text-align: center;
-    width: 30%;
+    width: 50%;
     &:hover {
-        @include transition-back;
-        background-color: darken($color-emphasis, 30%);
-        border: 2px solid darken($color-emphasis, 30%);
-        color: $color-background;
+      @include transition-archive;
+      background-color: darken($color-emphasis, 30%);
+      border: 2px solid darken($color-emphasis, 30%);
+      color: $color-background;
     }
   }
 }
 
+.site-title {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
 img {
-  @media only screen and (max-width : 1000px) {
-    width: 100%;
+  @media only screen and (max-width : 500px) {
+    width: 50%;
   }
 }
 
@@ -243,4 +248,11 @@ input[type=submit] {
 aside {
   font-size: 0.6em;
   font-style: italic;
+}
+
+
+// Premium Archive Styles
+
+.campaign {
+  margin: 1em 0;
 }

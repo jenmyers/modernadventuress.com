@@ -16,13 +16,13 @@ $font-accent:       "brandon-grotesque", sans-serif;
 
 @mixin transition-main {
   transition-property: border-bottom, color;
-  transition-duration: 0.5s;
+  transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
 
-@mixin transition-back {
+@mixin transition-archive {
   transition-property: background-color, border, color;
-  transition-duration: 0.5s;
+  transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
 

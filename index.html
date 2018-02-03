@@ -3,12 +3,10 @@ layout: default
 title: Home
 ---
 
-<p class="intro"><a href="http://tinyletter.com/jenmyers/">Modern Adventuress</a> is a weekly newsletter by <a href="http://jenmyers.net">Jen Myers</a>. Each week, it brings with it a few notes jotted down in the digital margins — brief essays on a variety of topics. Here are all the essays collected.</p>
+<p class="intro"><strong>Modern Adventuress</strong> is a weekly newsletter by <a href="http://jenmyers.net">Jen Myers</a>.</p>
 
-<ul class="note-list">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span>
-    </li>
-  {% endfor %}
-</ul>
+<p>You can subscribe to the <strong><a href="http://tinyletter.com/jenmyers/">free version</a></strong> to get curated links, reading/watching/listening recommendations and updates on my projects. And the finest in animated gifs.</p>
+
+<p>Or you can subscribe to the <strong><a href="{{ site.baseurl }}/premium/">premium version</a></strong> to get all of the above, plus extra links and a new original essay every week.</p>
+
+<a class="archive" href="{{ site.baseurl }}/archive/">Read the past essay archive</a>

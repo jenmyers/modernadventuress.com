@@ -1,0 +1,16 @@
+---
+layout: default
+title: Archive
+---
+
+<h1>Archive</h1>
+
+<p class="intro">From 2013 to 2017, I wrote essays for each edition of the newsletter. Starting in 2018, I moved essays to the <a href="{{ site.baseurl }}/premium/">premium version</a>, but all of the past essays are still available here to read freely.</p>
+
+<ul class="note-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span>
+    </li>
+  {% endfor %}
+</ul>
