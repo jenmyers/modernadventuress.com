@@ -14,7 +14,7 @@ html, body {
 }
 
 body:before, body:after {
-  background-color: darken($color-background, 5%);
+  background-color: lighten($color-emphasis, 10%);
   content: "";
   height: 10px;
   position: fixed;
@@ -28,14 +28,15 @@ body:after {
   bottom: 0;
 }
 body {
-  border-left: 10px solid darken($color-background, 5%);
-  border-right: 10px solid darken($color-background, 5%);
+  border-left: 10px solid lighten($color-emphasis, 10%);
+  border-right: 10px solid lighten($color-emphasis, 10%);
 }
 
 // Layout
 
 body {
-  background-color: lighten($color-background, 2%);
+  background-image: url("../images/beach.png");
+  background-size: cover;
   color: $color-primary;
   font-family: $font-base;
   font-size: 1.8em;
@@ -71,21 +72,35 @@ body {
   }
 }
 
+.home {
+  text-align: center;
+}
+
+.landing {
+  background-color: $color-background;
+}
+
 // Typography
 
 h1 {
-  color: darken($color-emphasis, 60%);
-  font-size: 180%;
+  color: $color-primary;
+  font-family: $font-accent;
+  font-size: 200%;
   font-weight: bold;
   line-height: 1;
-  margin: 0 0 0.5em 0;
-  span {
-    font-weight: 100;
-  }
+  margin: 2em 0 0.5em 0;
+  text-transform: lowercase;
+}
+
+.landing h1 {
+  @extend h1;
+  font-family: $font-base;
+  margin: 0 0 0.25em 0;
+  text-transform: none;
 }
 
 h2 {
-  color: $color-secondary;
+  color: lighten($color-primary, 10%);
   font-size: 85%; 
   font-family: $font-accent;
   font-weight: 300;
@@ -93,7 +108,6 @@ h2 {
   margin-bottom: 2em;
   padding-bottom: 0.5em;
   text-transform: uppercase;
-  width: 80%;
 }
 
 p {
@@ -108,7 +122,8 @@ p.intro {
 }
 
 p.footer {
-  @extend .intro;
+  margin: 3em 0;
+  font-style: italic;
   text-align: center;
 }
 
@@ -159,6 +174,14 @@ hr {
   }
 }
 
+ul.links li {
+  display: inline-block;
+  margin: 2em 0.5em;
+  a {
+    border-bottom: none;
+  }
+}
+
 blockquote {
   font-style: italic;
 }
@@ -166,33 +189,48 @@ blockquote {
 // Anchors
 
 a {
-  @include transition-main;
+  @include transition-border-bottom;
   border-bottom: 2px solid darken($color-background, 10%);
   color: darken($color-emphasis, 50%);
   text-decoration: none;
   &:hover {
-    @include transition-main;
+    @include transition-border-bottom;
     border-bottom: 2px solid darken($color-background, 20%);
-    color: darken($color-emphasis, 30%);
+    color: darken($color-emphasis, 100%);
   }
-  &.archive {
-    @include transition-archive;
-    border: 2px solid darken($color-emphasis, 35%);
+  &.button {
+    @include transition-background;
+    background-color: $color-emphasis;
+    border-bottom: none;
     border-radius: 5px;
     display: block;
     font-family: $font-accent;
-    font-size: 60%;
     font-weight: 500;
-    margin: 4em auto;
-    padding: 0.7em 1.5em 0.5em 1.5em;
-    text-transform: uppercase;
+    margin: 1em auto;
+    padding: 1em;
     text-align: center;
-    width: 50%;
+    text-transform: lowercase;
+    width: 60%;
     &:hover {
-      @include transition-archive;
+      @include transition-background;
       background-color: darken($color-emphasis, 30%);
-      border: 2px solid darken($color-emphasis, 30%);
       color: $color-background;
+    }
+    &.footer {
+      margin: 3em auto 0 auto;
+    }
+  }
+  &.button-special {
+    @extend .button;
+    @include transition-border-all;
+    background-color: transparent;
+    border: 2px solid darken($color-emphasis, 30%);
+    margin-top: 3em;
+    &:hover {
+      @include transition-border-all;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 2px solid darken($color-emphasis, 50%);
+      color: darken($color-emphasis, 50%);
     }
   }
 }
@@ -250,9 +288,22 @@ aside {
   font-style: italic;
 }
 
-
 // Premium Archive Styles
 
 .campaign {
   margin: 1em 0;
+}
+
+// ICONS
+
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-footer {
+  width: 1.5em;
+  height: 1.5em;
 }

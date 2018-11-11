@@ -4,24 +4,30 @@
 
 // Variables
 
-$color-background:  #f6f3ef;
+$color-background:  #eee;
 $color-primary:     #333;
 $color-secondary:   #8c8c8c;
 $color-emphasis:    #bdedee;
 $color-heading:     #d4f1ee;
 $font-base:         "freight-text-pro", serif;
-$font-accent:       "brandon-grotesque", sans-serif;
+$font-accent:       "Quicksand", sans-serif;
 
 // Mixins
 
-@mixin transition-main {
+@mixin transition-border-bottom {
   transition-property: border-bottom, color;
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
 
-@mixin transition-archive {
+@mixin transition-border-all {
   transition-property: background-color, border, color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+
+@mixin transition-background {
+  transition-property: background-color, color;
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }

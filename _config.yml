@@ -3,7 +3,7 @@ title: Modern Adventuress
 author: Jen Myers
 email: hello@jenmyers.net
 
-baseurl: ""
+baseurl: "http://modernadventuress.com"
 url: "http://modernadventuress.com"
 sass:
   sass_dir: _sass

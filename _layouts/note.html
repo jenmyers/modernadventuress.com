@@ -1,12 +1,12 @@
 {% include header.html %}
 
-  <div class="container">
- 		<h1>{{ page.title }}</h1>
+  <div class="container landing">
+ 		<h1 class="note">{{ page.title }}</h1>
     <h2>{{ page.date | date_to_long_string }}</h2>
     {{ content }}
     <hr />
-    <p class="footer"><strong>Modern Adventuress</strong> is a weekly email newsletter by <a href="http://jenmyers.net">Jen Myers</a> You can subscribe to the <a href="http://tinyletter.com/jenmyers/">free version</a> or the <a href="{{ site.baseurl }}/premium/">premium version</a>, which includes a new essay every week.</p>
-    <a class="archive" href="{{ site.baseurl }}/archive/">Read all past essays</a>
+    <p class="footer"><strong>Modern Adventuress</strong> is a weekly email letter by <a href="http://jenmyers.net">Jen Myers</a>. You can subscribe to the <a href="http://tinyletter.com/jenmyers/">free version</a>, which includes curated links, reading/watching/listening recommendations and updates on projects and events. The <a href="{{ site.baseurl }}/premium/">premium version</a> includes everything the regular edition has plus extra links and a new original essay every month.</p>
+    <a class="button-special" href="{{ site.baseurl }}/archive/">Read all past essays</a>
   </div>
 
 {% include footer.html %}
