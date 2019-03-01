@@ -20,6 +20,25 @@
         <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
 
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@antiheroine">
+    <meta name="twitter:title" content="{{ page.title }}">
+
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="Newsletter by Jen Myers">
+    {% endif %}
+
+    {% if page.image %}
+      <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
+      <meta name="twitter:image:alt" content="{{ page.image-alt }}" />
+    {% else %}
+      <meta name="twitter:image" content="{{ site.url }}/images/beach.jpg">
+      <meta name="twitter:image:alt" content="Vintage woman in a swimsuit raising a hand to her sunglasses" />
+    {% endif %}
+
     <script src="https://use.typekit.net/xkh4jji.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
