@@ -4,6 +4,7 @@ author: Jen Myers
 email: hello@jenmyers.net
 
 baseurl: ""
+url: "https://modernadventuress.com"
 sass:
   sass_dir: _sass
 
